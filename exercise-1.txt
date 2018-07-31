@@ -1,0 +1,69 @@
+Algoritma hukum newton II:
+1. Input massa benda (m) sebesar 600 kg
+2. Input percepatan (a) sebesar 2m/s2 
+3. Hitung “resultan gaya” dengan memperkalikan “massa benda” dengan “percepatan”
+4. Tampilkan hasil dari “resultan gaya”
+
+pseudecode:
+HUKUM NEWTON II:
+
+STORE "massa benda (m)" with “600” kg
+STORE "percepatan (a)" with “2” m/s2
+CALCULATE "m" times "a"
+SET "resultan gaya" value with calculation result
+DISPLAY "resultan gaya"
+
+ALGORITMA TAHUN KABISAT :
+1. Input Tahun
+2. Bagi tahun tersebut dengan angka 4:
+3. JIKA TAHUN TERSEBUT tidak HABIS DIBAGI 4, MAKA bukan tahun KABISAT
+4. Jika tahun habis dibagi 4, maka lanjutkan dengan membagi 100:
+a. Jika tahun tersebut tidak habis dibagi 100, maka tahun KABISAT
+b. jIKa tahun tersebut habis dibagi 100, maka lanjutkan dengan membagi 400:
+b1. jika tahun tersebut habis dibagi 400, maka tahun KABISAT
+b2. Jika tahun tersebut tidak habis dibagi 400, maka BUKAN TAHUN KABISAT
+
+PSEUDOCODE:
+
+TAHUN KABISAT
+
+INPUT "tahun"
+CALCULATE "tahun" mod 4
+STORE "remainder" to the result of calculation
+IF "remainder"not equals to 0
+DISPLAY “BUKAN TAHUN KABISAT
+IF "remainder"equals to 0
+THEN CALCULATE "tahun" mod 100
+STORE "remainder" to the result of calculation
+IF "remainder"not equals to 0
+DISPLAY "TAHUN KABISAT!"
+ELSEIF
+CALCULATE "tahun" mod 400
+STORE "remainder" to the result of calculation
+F "remainder"not equals to 0  
+
+DISPLAY "BUKAN TAHUN KABISAT"
+ELSE
+DISPLAY "TAHUN KABISAT"
+
+algoritma LOUNDRY DAY:
+1. masukkan pakaian ke mesin cuci
+2. jika jumlah pakaian kurang dari 20, ulangi langkah pertama
+3. jika jumlah pakaian sudah sampai 20, nyalakan mesin cuci
+
+Pseudocode:
+LOUNDRY DAY
+STORE "full shirt" with 0
+WHILE "full shirt" < 20
+ADD "full shirt" by 1
+DISPLAY "Nyalakan mesin!"
+
+algoritma PERIKSA KUKU::
+1. periksa kuku setiap siswa di kelas
+a. jika siswa/siswi memiliki kuku yang panjang, maka siswa/siswi dihukum
+b. jika siswa/siswi tidak memiliki kuku yang panjang, maka diberikan pujian.
+
+Pseudocode:
+PERIKSA KUKU:
+WHILE "Kuku Panjang"
+ DO “Anda di Hukum”
