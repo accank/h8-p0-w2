@@ -9,7 +9,7 @@ if(nama == ""){
   if(nama !== "" && peran == ""){
 
     //Output untuk Input nama = 'any name' dan peran = ''
-    document.write("Halo," + nama + " Pilih peranmu untuk memulai game!");
+    console.log("Halo," + nama + " Pilih peranmu untuk memulai game!");
   } else {
 
     //Output untuk Input nama = 'any name' dan peran 'Ksatria'
